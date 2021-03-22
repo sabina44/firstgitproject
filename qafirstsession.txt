@@ -1,0 +1,29 @@
+1.set username and email
+a) $ git config --global user.name "mandira karki"
+
+b) $ git config --global user.email "mandiraqa@gmail.com"
+
+2. to view all created username and email
+a )$ git config --global --list
+
+3. create new directory
+(or folder)
+a)mkdir git_session
+
+b) $ pwd =Print the working directory (see where you are):
+c) $ mKdir Qa_names
+d) $ cd Qa_names
+e) $ pwd
+f) $ git init
+g) $ touch QAnames.txt
+h) $ notepad QAnames.txt(opens notepad after that insert data and save it)\
+i) $ git status
+j) $ git add.(adds all )
+k) $ git commit -m "QA names added"
+l) $ git  remote add origin and keep link from git hub like"
+m) $ git push -u origin master(Push the code in your local repository to GitHub)
+n) $ git fetch origin master:tmp
+o) $ git rebase tmp
+p) $ git push origin HEAD:master
+q) cd ..(escape out from current directory)
+r) cd (root folder)
